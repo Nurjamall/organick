@@ -150,6 +150,14 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    top: 50px;
+    margin-right: 60px;
+    position: absolute;
+    z-index: 1;
+    bottom: 60px;
+    top: 35%;
+    left: 770px;
+    
 }
 .content h2{
     color: #274C5B;
@@ -158,23 +166,815 @@ body {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    position: absolute;
+    z-index: 7;
+    bottom: 550px;
+    left: 770px;
+    
 }
-button {
+.main-logo{
+    position: relative;
+    display: flex;
+    
+}
+.Explore {
     display: flex;
     padding: 22px 70px;
      flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    border-radius: 26px;
+    border-radius: 20px;
+    color: #274C5B;
     background: #EFD372;
+    position: absolute;
+    z-index: 7;
+    bottom: 500px;
+    left: 770px;
+    border: #EFD372;
+   
 }
 .content{
     display: flex;
     width: 530px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 23px;
+    gap: 23px;  
+}
+
+/*-----------------------------------------------------*/
+
+.main-photo{
+    margin-top: 145px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.main-photo img{
+    border-radius: 30px;
+}
+.name-photo p{
+    position: relative;
+    z-index: 7;
+    bottom: 300px;
+    display: flex;
+    color: #fff;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 60px;
+}
+.name-photo h2{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: relative;
+    z-index: 1;
+    bottom: 54%;
+    display: flex;
+    padding-left: 60px;
+}
+.new-photo p{
+    position: relative;
+    z-index: 1;
+    bottom: 300px;
+    display: flex;
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 60px;
+}
+.new-photo h2{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    z-index: 1;
+    bottom: 54%;
+    display: flex;
+    padding-left: 60px;
+    position: relative;
+}
+/*-----------------------------------------------*/
+.null-photo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nura{
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
     
 }
-/*-----------------------------------------------------*/
+.nell h2{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.Simply{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; 
+}
+.Vegan{
+    display: flex;
+}
+.Vegan h3{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.dummy{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; 
+}
+.Mailbox{
+    display: flex;
+}
+.hello{
+    margin-top: 74px;
+    display: flex;
+    width: 220px;
+    padding: 28px 39px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    background: #274C5B;
+
+}
+.noll{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Mailbox h3{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.Mailbox p{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; 
+}
+/*------------------------------------------*/
+.Products{
+    margin-top: 330px;
+}
+.Products p{
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.Products h2{
+    color: #274C5B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+/*-------------------------------------------*/
+.content1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+}
+.Broccoli{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.nell-p{
+    display: flex;
+    justify-content: space-between;
+}
+.name-p{
+    color: #274C5B;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nell-p{
+    color: #B8B8B8;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.xamer{
+    display: flex;
+    align-items: flex-end;
+    gap: 81px;
+}
+.nulle-photo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.Vegetable{
+    display: flex;
+    padding: 5px 12px 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #274C5B;
+    color: #fff;
+}
+.hello1{
+    display: flex;
+    padding: 28px 49px 28px 46px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    background: #274C5B;
+    margin-left: 45%;
+    margin-top: 122px;
+}
+/*-----------------------------------------------------------------*/
+.prido{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 150px;
+}
+.Testimonial{
+    z-index: 1;
+    display: flex;
+    padding-left: 950px;
+    position: absolute;
+    bottom: 5px;
+    top: 345%;
+}
+.Offer{
+    background-color: #274C5B; 
+    margin-left: 17%;
+    margin-right: 17%;
+    height: 1000px;
+}
+.gin{
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 201px;
+    padding-left: 201px;
+}
+.gin1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-left: 201px;
+}
+.View{
+    display: flex;
+    padding: 28px 39px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 70px;
+    width: 290px;
+    border-radius: 16px;
+    background: #EFD372;
+    border: #EFD372;
+    color: #274C5B;
+    margin-left: 70%;
+    position: absolute;
+    right: 650px;
+    bottom: 10px;
+    top: 442%; 
+}
+.kintin{
+    display: flex;
+    justify-content: space-evenly;
+}
+.place{
+    background-color: #fff;
+    border-radius: 30px;
+    width: 335px;
+    height: 483px;
+    flex-shrink: 0;
+}
+.place button{
+    background-color: #252b42;
+    margin-left: 50px;
+    margin-top: 40px;
+    color: #fff;
+    border-radius: 8px;
+    display: flex;
+    padding: 5px 12px 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.place h3{
+    color: #274C5B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.hin{
+    color: #B8B8B8;
+    text-align: center;
+    padding-left: 100px;
+    display: flex;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.taim{
+    color: #274C5B;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    top: 7059px;
+    padding-left: 40px;
+}
+.nirew{
+   display: flex;
+   position: absolute;
+   padding-left: 190px;
+   bottom: 90px;
+   top: 7079px;
+
+}
+.nall-photo{
+     margin-left: 17%;
+    display: flex;
+    justify-content: 0;
+}
+.Econis{
+    height: 820px;
+    background-color: #fff;
+    width: 870px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 25%;
+    margin-top: 70px;
+}
+.Eco{
+    padding-top: 40px;
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 89px;
+}
+.Econis h2{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 89px;
+}
+.Sed{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; /* 29.772px */
+    padding-left: 89px;
+}
+.Econis h5{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 89px;
+}
+/*----------------------------------*/
+.Grow-photo{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 17%;
+    margin-top: 178px;
+}
+.Juice{
+    margin-right: 15%;
+    margin-left: 22%;
+    display: inline-flex;
+    padding: 33px 83px 34px 83px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #FFF;
+    border: #FFF;
+    z-index: 2;
+    position: absolute;
+    bottom: 10px;
+    top: 8582px;
+}
+.Food{
+    margin-right: 15%;
+    margin-left: 47%;
+    display: inline-flex;
+    padding: 33px 83px 34px 83px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #FFF;
+    border: #FFF;
+    z-index: 2;
+    position: absolute;
+    bottom: 10px;
+    top: 8582px;
+}
+.Cookis{
+    margin-right: 15%;
+    margin-left: 70%;
+    display: inline-flex;
+    padding: 33px 83px 34px 83px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #FFF;
+    border: #FFF;
+    z-index: 2;
+    position: absolute;
+    bottom: 10px;
+    top: 8582px;
+}
+.weekly p{
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   margin-left: 25%;
+   margin-top: 235px;
+}
+.weekly h2{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 50px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+   margin-left: 25%;
+   margin-top: 40px;
+   display: flex;
+   justify-content: space-between;
+}
+.weekly button{
+    display: flex;
+    padding: 28px 45px 29px 45px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    height: 90px;
+    border-radius: 20px;
+    margin-left: 73%;
+    margin-bottom: 70%;
+    position: absolute;
+    display: flex;
+    
+}
+/*--------------------------------------*/
+.vinon-photo{
+    margin-left: 25%;
+    margin-top: 3%;
+}
+.vinon-photo img{
+    border-radius: 30px;
+}
+.Nov{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    padding-left: 32px;
+    padding-top: 30px;
+    border-radius: 45px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    bottom: 40px;
+    top: 645%;
+    left: 27%;
+}
+.red-but{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-left: 30px;
+    z-index: 1;
+    position: absolute;
+    bottom: 10%;
+    top: 9755px;
+    width: 600px;
+    height: 330px;
+}
+.red-but p{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.red-but h2{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.red-but h5{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; /* 29.772px */
+}
+.red-but button{
+    display: flex;
+    padding: 15px 47px 15px 47px;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    border-radius: 16px;
+    background: #EFD372;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+}
+
+.Nov1{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    padding-left: 32px;
+    padding-top: 30px;
+    border-radius: 45px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    bottom: 40px;
+    top: 645%;
+    left: 50%;
+}
+.red-but1{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-left: 30px;
+    z-index: 1;
+    position: absolute;
+    bottom: 10%;
+    top: 9755px;
+    width: 600px;
+    height: 330px;
+    left: 48%;
+}
+.red-but1 p{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.red-but1 h2{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.red-but1 h5{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; /* 29.772px */
+}
+.red-but1 button{
+    display: flex;
+    padding: 15px 47px 15px 47px;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    border-radius: 16px;
+    background: #EFD372;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+}
+.naall{
+    margin-top: 300px;
+    margin-left: 25%;
+}
+.naall h1{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    top: 10375px;
+    left: 30%;
+}
+.naall input{
+    width: 349px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    border: #fff;
+    position: absolute;
+    right: 40%;
+    top: 10440px;
+    color: #ABABAB;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.naall button{
+    display: flex;
+    width: 220px;
+    padding: 28px 47px 29px 47px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #274C5B;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    right: 32%;
+    top: 10440px;
+}
+/*----------------------------------------------------------------------------*/
+
+.new-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 106px;
+    margin-left: 25%;
+    margin-right: 28%;
+}
+.line{
+    width: 1px;
+    height: 336px;
+    background: #D4D4D4;
+}
+.mean-contact h2{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 30px;
+    text-align: right;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.mean-contact p{
+    color: #525C60;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 165%; /* 29.7px */
+}
+.simply-dummy h2{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    top: 10699px;
+    left: 45%;
+}
+.simply-dummy  p{
+    color: #525C60;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; /* 29.772px */
+}
+.Utility-Pages h2{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Utility-Pages p{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 272.9%; /* 49.122px */
+}
